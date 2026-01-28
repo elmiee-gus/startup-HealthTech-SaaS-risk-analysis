@@ -9,15 +9,16 @@
 - User Login frequency
 - Attach rate - users that booked any services
 
-
 # Dashboard Preview
-![Risk vs Engagement] ( )
-*Figure 1 : Correlation between genetic risk score and website usage*
+[![Risk vs Engagement] (Healthtech and SaaS.pdf)]
+*Correlation between genetic risk score and website usage*
 
-![Revenue] ( )
-*Figure 2 : Breakdown of Revenue by service type*
-
-# Key insights
+# Key Business insights
+- 50% User with genetic risk score >50 engaged with followup service - telehealth/caregiving
+- *Churn Risk identified* : 10% of users with genetic score >50 have not booked a follow-up consultation.
+- Integrated Caregiving services shown 63.67% of total revenue despite only being 15% of total bookings.
+- Action Status represent user's genetic risk score to service adoption (it clarify those who actually booked a Doctor or Caregiver after the DNA test result)
+- Overall service attach rate to service adoption is 65%, the attach rate for "Telehealth" is 35% higher than "Caregiving" which is 15% despite higher revenue.
 
 
 # Tools Used
@@ -25,12 +26,13 @@
 - Power BI (Data Visualization)
 
 
-
 # Data Source
-Synthetic dataset simulating genetic risk score and primary finding from the DNA test result.
-
-
+Synthetic dataset simulating genetic risk score and service adoption
 
 
 # Business Recommendation
--
+- Trigger an automated "Grab Doctor" discount for any user with a Risk Score >75
+- Create an automated "Priority Alert" system. When a DNA result exceeds a risk threshold of 75, the system should automatically: Offer a "First Consultation" discount code valid for 48 hours to create urgency. 
+- Bundle one "Free Doctor Discovery Call" with every DNA kit to increase the attach rate for "Telehealth" service.
+- Transition from a one-time purchase model to a "Family Care" subscription.
+  
